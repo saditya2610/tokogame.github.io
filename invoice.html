@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="css/invoice.css" media="all" />
+  </head>
+  <body>
+    <header class="clearfix">
+      <div id="logo">
+        <img src="img/logobrand.png">
+      </div>
+      <h1>INVOICE</h1>
+      <div id="company" class="clearfix">
+        <div>Tujuan Pengiriman :</div>
+        <div><b>Jakarta</b>,<br />Kebun baru,Indonesia</div>
+        <div>(+62) 888-041250</div>
+        <div><a href="mailto:company@example.com">saya@example.com</a></div>
+      </div>
+      <div id="project">
+        <div><span>Barang beli</span> Kaset BD PS4 dan PS5</div>
+        <div><span>Pembeli</span> Setiadi</div>
+        <div><span>DATE</span> Desember 17, 2020</div>
+        <div><span>DUE DATE</span> Januari 17, 2021</div>
+      </div>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th class="service">NAMA PRODUK</th>
+            <th class="desc">DESKRIPSI</th>
+            <th>Harga</th>
+            <th>QTY</th>
+            <th>TOTAL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="service">Cyberpunk 2077</td>
+            <td class="desc">Bonus Extra Badge</td>
+            <td class="unit">Rp449.000</td>
+            <td class="qty">2</td>
+            <td class="total">Rp898.000</td>
+          </tr>
+          <tr>
+            <td class="service">Resident Evil Village</td>
+            <td class="desc">Pre Order Standard edition</td>
+            <td class="unit">Rp899.000</td>
+            <td class="qty">3</td>
+            <td class="total">Rp2.667.000</td>
+          </tr>
+          <tr>
+            <td class="service">FIFA 21</td>
+            <td class="desc">NXT LVL Edition</td>
+            <td class="unit">Rp975.000</td>
+            <td class="qty">1</td>
+            <td class="total">Rp975.000</td>
+          </tr>
+         
+          <tr>
+            <td colspan="4">SUBTOTAL</td>
+            <td class="total">Rp4.540.000</td>
+          </tr>
+          <tr>
+            <td colspan="4">PPN 10%</td>
+            <td class="total">Rp454.000</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="grand total">GRAND TOTAL</td>
+            <td class="grand total">Rp4.994.000</td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="notices">
+        <div>NOTICE:</div>
+        <div class="notice">A finance charge of 1.5% will be made on unpaid balances after 30 days.</div>
+      </div>
+    </main>
+    <footer>
+      Invoice was created on a computer and is valid without the signature and seal.
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,339 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    background-color : ;
+}
+body {
+  padding-top: 56px;
+  background-image: linear-gradient(rgba(63, 127, 191,.65),rgba(63, 127, 191,.65)),url(background.png);
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-faded{color:rgba(255,255,255,.3)
+    }
+header {
+    position: sticky;
+    top: 0;
+    background-color: #1b1209;
+    z-index: 1;
+}
+
+nav {
+    max-height: 6vh;
+}
+
+h1 {
+    color: #ebdf0c;
+    font-size: 1.7em;
+    letter-spacing: 1px;
+}
+
+h3  {
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #BABAB9;
+}
+
+.title {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 2.2em;
+}
+
+.hero {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relat ive;
+    max-height: 509px;
+    height: 50vw;
+    width: 100%;
+}
+
+.topText {
+    margin: 8vh auto;
+    width: 75vw;
+}
+
+.topBar {
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 83vw;
+}
+
+.menu {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    min-width: 45vw;
+}
+
+.burger {
+    display: none;
+    background-image: url('../images/burger.png');
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 50px;
+    transition: all 500ms ease;
+}
+
+.burger:hover {
+    transform: rotate(90deg);
+}
+
+main, .content {
+    margin: 0 auto;
+    max-width: 75vw;
+}
+
+.photoCardBlock {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 20em;
+}
+
+.blockOne, .blockTwo {
+    max-width: 35vw;
+    max-height: 50vh;
+}
+
+.photoOne, .photoTwo, .photoThree, .photoFour, .photoFive, .photoSix {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 66.66%;
+    overflow: hidden;
+    height: 0;
+}
+
+.photoOne {
+    background-image: url('../images/back4blood.jpg');
+}
+
+.photoTwo {
+    background-image: url('../images/ratcher.jpg');
+}
+
+.photoThree {
+    background-image: url('../images/deathloop.jpg');
+}
+
+.photoFour {
+    background-image: url('../images/ghostwire.jpg');
+}
+
+.photoFive {
+    background-image: url('../images/residenevil.jpg');
+}
+
+.photoSix {
+    background-image: url('../images/kena.jpg');;
+}
+
+a {
+    color: #ebdf0c;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow:
+    0.03em 0em 0 #000;
+}
+
+.signUp {
+    background-color: #F2F3F4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 15em;
+    margin-bottom: 10vh;
+}
+
+.signUp h1 {
+    font-size: 2.2em;
+    margin: 0;
+}
+
+.signUp h3 {
+    font-size: 1em;
+    color: #797A7B;
+}
+
+.eMail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 35vw;
+    height: 3em;
+    margin-top: 2vh;
+    border-bottom: 1px solid #797A7B;
+}
+
+.loadMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #5C5D5E;
+    width: 160px;
+    height: 60px;
+    padding: 10px;
+    margin: 10vh auto 8vh auto;
+    font-size: 1.3em;
+    color: #606162;
+}
+
+
+footer {
+    width: 100%;
+    height: 5em    ;
+    background-color: #F2F3F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1em;
+}
+
+.footerLeft {
+    width: 25vw;
+    text-align: left;
+}
+
+.footerLinks {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.footerLinks a {
+    color: #5E5F60;
+    padding-right: 10px
+}
+
+.footerRight {
+    word-spacing: 15px;
+    width: 40vw;
+    text-align: right;
+    padding-right: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footerRight img {
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 1000px){
+
+    .photoCardBlock {
+        flex-direction: column;
+        margin-bottom: 5vh;
+        align-items: center;
+        margin-bottom: 7em;
+    }
+
+    .blockOne, .blockTwo {
+        max-width: 55vw;
+        max-height: 90vh;
+    }
+
+    .blockOne {
+        margin-bottom: 5vh;
+    }
+
+    .signUp img {
+        display: none;
+    }
+
+    .eMail {
+        height: 5em;
+    }
+}
+
+@media only screen and (max-width: 800px){
+
+    footer {
+        font-size: 1.3vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+
+    .topBar {
+        align-items: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .blockOne, .blockTwo {
+        max-width: 55vw;
+        max-height: 100vh;
+    }
+
+    .signUp img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) and (max-height: 700px) {
+
+    .blockOne, .blockTwo {
+        max-width: 90vw;
+        min-height: 90vh;
+    }
+
+    footer {
+        font-size: 1.9vh;
+        padding: 0 10px;
+        height: 9vh;
+    }
+
+    .signUp h1 {
+        font-size: 1em;
+    }
+
+    .signUp h3 {
+        font-size: 0.7em;
+    }
+
+    .eMail {
+        height: 9vh;
+        text-align: center;
+    }
+
+    .photoCardBlock {
+        height: 75em;
+    }
+
+    .signUp {
+        height: 10em;
+    }
+}
