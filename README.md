@@ -1,6 +1,6 @@
-# [dibuat dengan bootstrap -  components.
+# [dibuat dengan startbootstrap untuk toko game -  components.
 
-## Preview
+## contoh tema
 
 [![Business Casual Preview](https://assets.startbootstrap.com/img/screenshots/themes/business-casual.png)](https://startbootstrap.github.io/startbootstrap-business-casual/)
 
